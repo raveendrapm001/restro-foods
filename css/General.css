@@ -1,0 +1,78 @@
+/* ******************************* */
+/* COLOR */
+/* ******************************* */
+
+/* Primary-color: #e67e22;
+Accents(Secondary-color): #fdf2e9;
+Grey: #555; */
+/* use tint(lighter) and shades(darker) accourding to usecase */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font size 1rem = 10px, in percentage is 62.5% */
+  font-size: 62.5%;
+  /* on after responsive of website */
+  overflow-x: hidden;
+  /* for smooth scroll */
+  /* scroll-behavior: smooth; */
+}
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ******************************* */
+/* general reusable style code */
+/* ******************************* */
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1.2rem 1.6rem;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: #e67e22;
+  color: #ffffff;
+  transition: all 300ms;
+  border-radius: 5px;
+}
+.btn,
+.btn:hover,
+.btn:active {
+  background-color: #b9651b;
+  color: #eaeaea;
+}
+
+.tag {
+  display: inline-block;
+  border-radius: 100rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #37b24d;
+  font-weight: 500;
+  padding: 0.4rem 0.8rem;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+/* focus */
+*:focus {
+  outline: none;
+  box-shadow: rgba(249, 215, 175, 0.749) 0px 1px 5px,
+    rgb(244, 203, 164) 0px 0px 0px 5px;
+}
